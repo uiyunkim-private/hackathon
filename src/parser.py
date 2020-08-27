@@ -1,7 +1,7 @@
 from pyresparser import ResumeParser
 import os
 import json
-from src.environment import DATA_PATH
+from src.environment import RESUME_PATH
 from src.database import runsql
 
 resume_path = os.path.join(DATA_PATH,"resume")
@@ -15,6 +15,8 @@ for file in os.listdir(resume_path):
     statement = """insert into student values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
 
     values = list(data.values())
+
+
     values.insert(0,id)
 
     tmp = []
