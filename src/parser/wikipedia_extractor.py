@@ -1,9 +1,5 @@
-import pandas as pd
 import spacy
-import os
-from src.environment import DATA_PATH
 import nltk
-from textblob import TextBlob
 import wikipedia
 nlp = spacy.load('en_core_web_sm')
 nltk.download('brown')
