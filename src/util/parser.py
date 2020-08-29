@@ -16,7 +16,6 @@ for file in os.listdir(resume_path):
 
     values = list(data.values())
 
-
     values.insert(0,id)
 
     tmp = []

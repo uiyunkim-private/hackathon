@@ -3,13 +3,10 @@ from nltk.tokenize import word_tokenize
 from src.environment import RESUME_PATH
 import os
 from src.parser.text_extractor import extract_text_from_document
-from src.parser.name_extractor import extract_name_with_rules
-from src.parser.phone_number_extractor import extract_phone_number_with_multiple_expressions
-from src.parser.email_extractor import extract_email_with_regular_expression_v1
-from src.parser.skills_extractor import extract_skills_with_word_tokenization
-from src.parser.education_extractor import extract_education_with_database_search
-from src.parser.experience_extractor import extract_experiences_from_sentence_analyzer
+import nltk
 
+nltk.download('stopwords')
+nltk.download('punkt')
 files = []
 data = []
 for resume in os.listdir(RESUME_PATH):
@@ -28,7 +25,7 @@ vec_size = 100
 alpha = 0.025
 
 model = Doc2Vec(size=vec_size,
-                window=10,
+                window=20,
                 alpha=alpha,
                 min_alpha=0.00025,
                 min_count=1,

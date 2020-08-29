@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99d76b1-fa52-47d1-8191-2bbf2ca0ea87" name="Default Changelist" comment="" />
+    <list default="true" id="c99d76b1-fa52-47d1-8191-2bbf2ca0ea87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aws/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aws/lambda/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parser/wikipedia_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word_similarity/wiki_sentences.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/document_similarity/d2v.model" beforeDir="false" afterPath="$PROJECT_DIR$/src/document_similarity/d2v.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/document_similarity/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/document_similarity/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/google_word_similarity/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/google_word_similarity/predictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/skills_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/skills_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word_similarity/mymodel" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_similarity/mymodel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word_similarity/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_similarity/predictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word_similarity/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_similarity/trainer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,24 +35,50 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gce6mHzRedjczAMzj0w8vCbAeq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/aws/lambda" />
+      <recent name="$PROJECT_DIR$/src/aws" />
+      <recent name="$PROJECT_DIR$/src/parser" />
       <recent name="C:\Users\research\Documents\GitHub\hackathon\src\util" />
       <recent name="C:\Users\research\Documents\GitHub\hackathon\src\database" />
-      <recent name="C:\Users\research\Documents\GitHub\hackathon\src\parser\text_extractor" />
-      <recent name="C:\Users\research\Documents\GitHub\hackathon\src\parser" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.predictor (2)">
+  <component name="RunManager" selected="Python.trainer (1)">
+    <configuration name="lambda_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hackathon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/aws/lambda/student_parsed-info_get" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/aws/lambda/student_parsed-info_get/lambda_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="predictor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predictor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/similarity_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/similarity_model/predictor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,34 +163,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trainer (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hackathon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/google_word_similarity" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/google_word_similarity/trainer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.predictor (2)" />
-        <item itemvalue="Python.trainer (2)" />
-        <item itemvalue="Python.predictor (1)" />
         <item itemvalue="Python.trainer (1)" />
-        <item itemvalue="Python.predictor" />
+        <item itemvalue="Python.predictor (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.lambda_function" />
+        <item itemvalue="Python.predictor (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +184,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1659" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598544495732">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -171,46 +196,67 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598488838452" />
-    <state width="1256" height="564" key="GridCell.Tab.0.bottom" timestamp="1598591175894">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="379" key="GridCell.Tab.0.bottom" timestamp="1598661188295">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="379" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598661188295" />
     <state width="1899" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598442812784" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598601711298" />
     <state width="1256" height="564" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598591175894" />
-    <state width="1256" height="564" key="GridCell.Tab.0.center" timestamp="1598591175894">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1312" height="295" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1598616610305" />
+    <state width="1659" height="379" key="GridCell.Tab.0.center" timestamp="1598661188294">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="379" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598661188294" />
     <state width="1899" height="214" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598442812784" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598601711297" />
     <state width="1256" height="564" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598591175894" />
-    <state width="1256" height="564" key="GridCell.Tab.0.left" timestamp="1598591175894">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1312" height="295" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1598616610305" />
+    <state width="1659" height="379" key="GridCell.Tab.0.left" timestamp="1598661188293">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="379" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598661188293" />
     <state width="1899" height="214" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598442812784" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598601711296" />
     <state width="1256" height="564" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598591175894" />
-    <state width="1256" height="564" key="GridCell.Tab.0.right" timestamp="1598591175894">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1312" height="295" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1598616610304" />
+    <state width="1659" height="379" key="GridCell.Tab.0.right" timestamp="1598661188294">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="379" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598661188294" />
     <state width="1899" height="214" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598442812784" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598601711298" />
     <state width="1256" height="564" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598591175894" />
-    <state width="1255" height="491" key="GridCell.Tab.1.bottom" timestamp="1598544116588">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1312" height="295" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1598616610305" />
+    <state width="1659" height="364" key="GridCell.Tab.1.bottom" timestamp="1598654911194">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598654911194" />
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598601580420" />
     <state width="1255" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598544116588" />
-    <state width="1255" height="491" key="GridCell.Tab.1.center" timestamp="1598544116588">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="364" key="GridCell.Tab.1.center" timestamp="1598654911194">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598654911194" />
+    <state width="1899" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598601580419" />
     <state width="1255" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598544116588" />
-    <state width="1255" height="491" key="GridCell.Tab.1.left" timestamp="1598544116588">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="364" key="GridCell.Tab.1.left" timestamp="1598654911193">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598654911193" />
+    <state width="1899" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598601580418" />
     <state width="1255" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598544116588" />
-    <state width="1255" height="491" key="GridCell.Tab.1.right" timestamp="1598544116588">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="364" key="GridCell.Tab.1.right" timestamp="1598654911194">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598654911194" />
+    <state width="1899" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598601580419" />
     <state width="1255" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598544116588" />
-    <state x="942" y="222" key="SettingsEditor" timestamp="1598418184346">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="618" y="172" key="SettingsEditor" timestamp="1598592410027">
+      <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="942" y="222" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598418184346" />
+    <state x="618" y="172" key="SettingsEditor/0.23.1680.937@0.23.1680.937" timestamp="1598592410027" />
     <state x="1348" y="0" width="1032" height="1118" key="dock-window-1" timestamp="1598522028460">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

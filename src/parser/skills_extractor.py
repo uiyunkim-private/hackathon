@@ -3,6 +3,8 @@ import spacy
 import os
 from src.environment import DATA_PATH
 # load pre-trained model
+
+
 nlp = spacy.load('en_core_web_sm')
 
 

@@ -12,8 +12,8 @@ def run(statement,param):
 
     sql = statement
 
-    cursor.execute(sql,param)
-    cursor.execute("SHOW TABLES")
+    cursor.execute("""insert into student values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",param)
+    #cursor.execute("SHOW TABLES")
 
     db.commit()
     db.close()
